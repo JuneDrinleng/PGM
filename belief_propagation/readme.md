@@ -56,7 +56,8 @@ $$
 
 $$
 \delta_{54}=\frac{1}{\mu_{54}}*[\sum_{V_2}\delta_{65}\psi(C_5)]\\
-=\frac{1}{\mu_{54}}*[P(V_2=1)*\delta_{65}*exp(\alpha_2H_2+\beta_2+w_{22}H_2)+P(V_2=0)*\delta_{65}*exp(\alpha_2H_2)]
+=\frac{1}{\mu_{54}}*[P(V_2=1)*\delta_{65}*exp(\alpha_2H_2+\beta_2+w_{22}H_2)+P(V_2=0)*\delta_{65}*exp(\alpha_2H_2)]
+
 $$
 
 and in $\delta_{43}$ we need to sum $H_2$, so the different value when $H_2$ is different  in the above message can be used:

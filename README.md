@@ -4,10 +4,11 @@ It mainly includes the inference and learning part
 
 ## Inference
 1. Variable Elimination and Belief Propagation  
-we use clique tree to realize the inference algorithm. however, the algorithm is written in a bad way. we even can not be sure it is correct or not.  
+we use clique tree to realize the inference algorithm. however, the algorithm is written in a bad way. we even can not be sure it is correct or not.    
 the code is in [belief_propagation](./belief_propagation/)
 2. Mean Field Inference
-we use mean field inference to realize the inference algorithm. The result of it is quite near to the result we use pypgm package.
+we use mean field inference to realize the inference algorithm. The result of it is quite near to the result we use pypgm package.  
+the code is in [mean_field](./mean_field/)
 3. Gibbs Sampling
 we use Gibbs Sampling to realize the inference algorithm. we at first try to find out the reason of not convergence. And finally we realize that with the iteration number increase, we are not making it converge, but continuing to sample.
 4. Metropolis-Hastings algorithm
